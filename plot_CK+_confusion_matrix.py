@@ -13,7 +13,7 @@ from sklearn.metrics import confusion_matrix
 
 
 from CK import CK
-from models import *
+from model import *
 
 parser = argparse.ArgumentParser(description='PyTorch CK+ CNN Training')
 parser.add_argument('--dataset', type=str, default='CK+', help='CNN architecture')

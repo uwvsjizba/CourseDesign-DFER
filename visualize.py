@@ -39,8 +39,9 @@ inputs = transform_test(img)
 
 class_names = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
-net = VGG('VGG19')
-checkpoint = torch.load(os.path.join('./FER2013_VGG19', 'PublicTest_model.t7'), map_location='cuda')
+# net = VGG('VGG19')
+net = ResNet18()
+checkpoint = torch.load(os.path.join('./CK+_Resnet18/1', 'Test_model.t7'), map_location='cuda')
 net.load_state_dict(checkpoint['net'])
 net.cuda()
 net.eval()

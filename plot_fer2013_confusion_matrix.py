@@ -18,7 +18,7 @@ from torch.autograd import Variable
 import torchvision
 import transforms as transforms
 from sklearn.metrics import confusion_matrix
-from models import *
+from model import *
 
 
 parser = argparse.ArgumentParser(description='PyTorch Fer2013 CNN Training')

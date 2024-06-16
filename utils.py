@@ -1,9 +1,3 @@
-'''Some helper functions for PyTorch, including:
-    - progress_bar: progress bar mimic xlua.progress.
-    - set_lr : set the learning rate
-    - clip_gradient : clip gradient
-'''
-
 import os
 import sys
 import time

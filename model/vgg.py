@@ -1,4 +1,3 @@
-'''VGG11/13/16/19 in Pytorch.'''
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
